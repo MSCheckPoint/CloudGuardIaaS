@@ -1,0 +1,24 @@
+//#PLEASE reffer to the README.md for accepted values FOR THE VARIABELS BELOW
+client_secret   = "Upo8Q~wPNlfcgUto0fOQbB4vQ99IVeiZaB1PYcyH" # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+client_id       = "8c88d97d-0689-4e31-b3e7-0896b14c15cd"     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+tenant_id       = "8d6d99fd-98d8-4d52-aa58-8be1a7108829"     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+subscription_id = "a7d8f776-9a59-4dc2-83e4-bece496cfd3d"     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#source_image_vhd_uri            = "PLEASE ENTER SOURCE IMAGE VHD URI OR noCustomUri"               # "noCustomUri"
+resource_group_name   = "terraform-cluster-1"            # "checkpoint-ha-terraform"
+cluster_name          = "terraform-cluster-1"            # "checkpoint-ha-terraform"
+location              = "North Europe"                   # "eastus"
+vnet_name             = "vnet-for-terraform-cluster"     # "checkpoint-ha-vnet"
+address_space         = "10.10.0.0/16"                   # "10.0.0.0/16"
+subnet_prefixes       = ["10.10.1.0/24", "10.10.2.0/24"] # ["10.0.1.0/24","10.0.2.0/24"]
+admin_password        = "Cpwins1234567"                  # "xxxxxxxxxxxx"
+sic_key               = "Cpwins1234567"                  # "xxxxxxxxxxxx"
+vm_size               = "Standard_DS2_v2"                # "Standard_D3_v2"
+disk_size             = "110"                            # "110"
+vm_os_sku             = "sg-byol"                        # "sg-byol"
+vm_os_offer           = "check-point-cg-r81"             # "check-point-cg-r8030"
+os_version            = "R81"                            # "R80.30"
+bootstrap_script      = ""                               # "touch /home/admin/bootstrap.txt; echo 'hello_world' > /home/admin/bootstrap.txt"
+allow_upload_download = "true"                           # true
+authentication_type   = "Password"                       # "Password"
+availability_type     = "Availability Zone"              # "Availability Zone"
+enable_custom_metrics = "true"                           # true
